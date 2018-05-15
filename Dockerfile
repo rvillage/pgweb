@@ -1,6 +1,6 @@
 FROM alpine:3.7 AS setup
 
-ENV PGWEB_VERSION 0.9.11
+ENV PGWEB_VERSION 0.9.12
 
 RUN set -ex \
   && apk --update upgrade \
